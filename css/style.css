@@ -12,7 +12,15 @@
   /* change the values below to your chosen font(s) */
   --heading-font: Helvetica;
   --paragraph-font: Georgia, serif;
+}
 
+.titlebox {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #3066BE;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 body {
