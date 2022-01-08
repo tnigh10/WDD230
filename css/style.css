@@ -1,0 +1,32 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #FFFECB;   /* Yellow */
+  --secondary-color: #3066BE; /* Blue */
+  --accent1-color: #EFD9CE;  /* rose */
+  --accent2-color: #607196;  /* gray */
+  --accent3-color: #E8E9ED; /*   light gray  */
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: Helvetica;
+  --paragraph-font: Georgia, serif;
+
+}
+
+body {
+  background-color: #3066BE;
+  font-family: Georgia, serif;
+  /*padding: 5px 25px; */
+  /*font-size: 18px; */
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #E8E9ED;
+  font-family: Georgia, serif;
+  max-width: 960px;
+  margin: 0 auto;
+}
