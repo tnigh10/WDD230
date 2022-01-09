@@ -55,7 +55,7 @@ body {
   font-family: Georgia, serif;
   /*padding: 5px 25px; */
   /*font-size: 18px; */
-  max-width: 960px;
+  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ main {
   display: block;
   background-color: #FFFECB;
   font-family: Georgia, serif;
-  max-width: 960px;
+  max-width: 550px;
   margin: 0 auto;
 }
 
