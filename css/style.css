@@ -14,6 +14,16 @@
   --paragraph-font: Georgia, serif;
 }
 
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 220px auto;
+  }
+  
+.titleimage {
+    max-width:60%;
+    max-height:60%;
+  }
 .titlebox {
     margin-top: 25px;
     display: grid;
@@ -24,7 +34,7 @@
 }
 
 body {
-  background-color: #3066BE;
+  background-color: #FFFECB;
   font-family: Georgia, serif;
   /*padding: 5px 25px; */
   /*font-size: 18px; */
