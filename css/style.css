@@ -24,6 +24,10 @@ header {
     border-radius: 10px;
   }
   
+  h1 {
+      text-align: center;
+  }
+  
 .titleimage {
     max-width:100%;
     max-height:100%;
