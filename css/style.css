@@ -78,9 +78,10 @@ ul {
   }
 
 footer {
+    display: block;
     text-align: center;
   }
-  
+
 script {
     display: none;
 }
