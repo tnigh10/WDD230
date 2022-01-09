@@ -38,17 +38,10 @@ header {
   
 
 .titleimage {
-    max-width:70%;
-    max-height:70%;
+    max-width:50%;
+    max-height:50%;
   }
-.titlebox {
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: #3066BE;
-    padding: 20px;
-    border-radius: 10px;
-}
+
 
 body {
   background-color: #3066BE;
