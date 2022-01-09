@@ -60,6 +60,7 @@ body {
 }
 
 main {
+  display: block;
   background-color: #E8E9ED;
   font-family: Georgia, serif;
   max-width: 960px;
@@ -71,6 +72,11 @@ h2 {
     text-align: center;
   }
 
+ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
 script {
     display: none;
 }
