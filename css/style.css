@@ -55,15 +55,16 @@ body {
   font-family: Georgia, serif;
   /*padding: 5px 25px; */
   /*font-size: 18px; */
-  max-width: 550px;
+  max-width: 500px;
   margin: 0 auto;
+  border-radius: 15px 15px 15px 15px;
 }
 
 main {
   display: block;
   background-color: #FFFECB;
   font-family: Georgia, serif;
-  max-width: 550px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
