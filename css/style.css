@@ -18,6 +18,10 @@ header {
     align-items: center;
     display: grid;
     grid-template-columns: 220px auto;
+    background-color: #3066BE;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
   }
   
 .titleimage {
