@@ -77,6 +77,10 @@ ul {
     border-bottom: 2px solid black;
   }
 
+footer {
+    text-align: center;
+  }
+  
 script {
     display: none;
 }
