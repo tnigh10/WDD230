@@ -1,7 +1,8 @@
 @media query breakpoint of (min-width: 32.5em) {
 
+    h1 {
+        font-color: Yellow;
+    }
 
 
-
-    
 }
