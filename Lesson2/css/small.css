@@ -73,6 +73,38 @@
     margin: 0 auto;
   }
   
+  .designprinciple{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+}
+.box{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 10px;
+
+    width: 87%;
+    align-items: center;
+    font-family: "Poppins", sans-serif, Helvetica;
+}
+
+.box h3{
+    background-color: gray;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.box h4, p{
+    margin: 0px;
+    padding: 10px;
+}
+
+.mobileimg{
+    align-items: center;
+}
   
   
   footer {
