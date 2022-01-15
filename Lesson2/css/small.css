@@ -79,7 +79,7 @@
     grid-gap: 10px;
 }
 .box{
-    background-color: lightgray;
+    background-color: #E8E9ED;
     border-radius: 5px;
     border: 2px solid gray;
     margin: 10px;
@@ -90,7 +90,7 @@
 }
 
 .box h3{
-    background-color: gray;
+    background-color: #E8E9ED;
     color: white;
     margin: 0px;
     padding: 10px;
