@@ -1,8 +1,8 @@
-@media query breakpoint of (min-width: 32.5em) {
+ {
 
     h2 {
         font-color: purple;
     }
 
 }
-
+@media query breakpoint of (min-width: 32.5em)
