@@ -73,7 +73,7 @@
     margin: 0 auto;
   }
   
-  .designprinciple{
+  .designprinciples {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 10px;
