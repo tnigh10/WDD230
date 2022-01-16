@@ -33,6 +33,7 @@ header {
     display: block;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 2em;
+    color: #E8E9ED;
     margin-block-start: 0.0em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -81,7 +82,7 @@ ul {
 
 footer {
     display: block;
-    font-color: #E8E9ED;
+    font changescolor: #E8E9ED;
     text-align: center;
   }
 
