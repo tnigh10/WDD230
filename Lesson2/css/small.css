@@ -86,7 +86,7 @@
     max-width: 28em;
     <!--width: 87%;-->
     align-items: center;
-    font-family: "Poppins", sans-serif, Helvetica;
+    font-family: "Amiri", sans-serif, Helvetica;
 }
 
 .box h3{
@@ -101,7 +101,7 @@
 
 .box h4 {
     margin: 0px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
