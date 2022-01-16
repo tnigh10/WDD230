@@ -98,14 +98,14 @@
     border-top-right-radius: 5px;
     text-align: center;
 }
-.box h4, p{
+.box h4 {
     margin: 0px;
     padding: 10px;
     text-align: center;
 }
 
 .box img {
-    margin: 0px;
+    <!--margin: 0px;-->
     padding: 10px;
     max-width: 24em;
 }
@@ -114,10 +114,13 @@
     align-items: center;
     margin: 0px;
     padding: 10px;
-    
 }
   
-  
+  p {
+      text-align: left;
+
+  }
+
   footer {
       display: block;
       text-align: center;
