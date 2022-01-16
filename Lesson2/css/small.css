@@ -84,7 +84,7 @@
     border-radius: 5px;
     border: 2px solid gray;
     margin: 10px;
-    min-width: 40em;
+    min-width: 20em;
     <!--width: 87%;-->
     align-items: center;
     font-family: "Poppins", sans-serif, Helvetica;
@@ -106,7 +106,7 @@
 .box img {
     margin: 0px;
     padding: 10px;
-    max-width: 0;
+    max-width: 20em;
 }
 
 .mobileimg{
