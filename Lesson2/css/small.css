@@ -98,7 +98,14 @@
     border-top-right-radius: 5px;
     text-align: center;
 }
-.box h4 p{
+
+.box h4 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box p a{
     margin: 0px;
     padding: 10px;
     text-align: center;
