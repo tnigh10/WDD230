@@ -84,7 +84,7 @@
     border-radius: 5px;
     border: 2px solid gray;
     margin: 10px;
-
+    min-width: 20em;
     width: 87%;
     align-items: center;
     font-family: "Poppins", sans-serif, Helvetica;
