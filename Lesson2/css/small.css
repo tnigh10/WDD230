@@ -105,7 +105,7 @@
     text-align: center;
 }
 
-.box p a{
+.box h4 p a{
     margin: 0px;
     padding: 10px;
     text-align: center;
@@ -118,14 +118,15 @@
 }
 
 .mobileimg{
-    align-items: center;
     margin: 0px;
     padding: 10px;
+    align-items: center;
 }
   
   .discussion {
-      text-align: left;
+      margin: 0px;
       padding: 10px;
+      text-align: left;
 
   }
 
