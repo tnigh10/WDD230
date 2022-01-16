@@ -96,11 +96,12 @@
     padding: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    align-text: center;
+    text-align: center;
 }
 .box h4, p{
     margin: 0px;
     padding: 10px;
+    text-align: center;
 }
 
 .box img {
