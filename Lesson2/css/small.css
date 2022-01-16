@@ -84,8 +84,8 @@
     border-radius: 5px;
     border: 2px solid gray;
     margin: 10px;
-    max-width: 28em;
-    <!--width: 87%;-->
+    <!--max-width: 28em;-->
+    width: 87%;
     align-items: center;
     font-family: "Poppins", sans-serif, Helvetica;
 }
@@ -97,6 +97,7 @@
     padding: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    align-text: center;
 }
 .box h4, p{
     margin: 0px;
@@ -106,12 +107,13 @@
 .box img {
     margin: 0px;
     padding: 10px;
-    max-width: 20em;
+    <!--max-width: 20em;-->
 }
 
 .mobileimg{
     align-items: center;
-    max-width: 20em;
+    margin: 0px;
+    padding: 10px;
 }
   
   
