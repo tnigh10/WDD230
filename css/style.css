@@ -1,5 +1,3 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-
 
 :root {
   /* change the values below to your colors from your palette */
@@ -10,8 +8,7 @@
   --accent3-color: #E8E9ED; /*   light gray  */
 
   /* change the values below to your chosen font(s) */
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
 <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Open+Sans&display=swap" rel="stylesheet">
 
 
