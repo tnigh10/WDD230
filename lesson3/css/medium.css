@@ -11,4 +11,8 @@ h1 {
     color: Yellow;
 }
 
+main {
+    max-width: auto;
+}
+
 }
