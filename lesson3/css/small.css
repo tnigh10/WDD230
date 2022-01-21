@@ -58,6 +58,7 @@
     font-family: Garamond, Georgia, serif;
     /*max-width: 200px;*/
     margin: 0 auto;
+    min-width: 200px;
   }
   
   h2 {
