@@ -47,9 +47,16 @@
       margin-inline-end: 0px;
       /* <!--font-weight: bold;--> */
       text-align: center;
-      margin-left: 0;
+      
     }
-  
+
+    header h2 {
+      display: block;
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      color: #E8E9ED;
+      margin-top: -20px;
+      text-align: center;
+  }
     nav {
       flex: 1 1 100%;
       display: block;
