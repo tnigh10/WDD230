@@ -74,6 +74,11 @@
       text-decoration: none;
     }
   
+    nav a:hover {
+      background-color: #e8e9ed;
+      color: yellow;
+        border-radius: 10px;
+    }
   
   main {
     
