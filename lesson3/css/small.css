@@ -70,17 +70,18 @@
   
   
   main {
-    display: block;
+    
     background-color: #FFFECB;
     font-size: 18px;
     font-family: 'Amiri', Georgia, serif;
     margin-left: 50px;
     margin-right: 50px;
+    text-align: center;
     
     }
   
   h2 {
-      display: block;
+      
       text-align: center;
       padding-top: 1em;
     }
