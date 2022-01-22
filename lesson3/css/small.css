@@ -22,7 +22,7 @@
       margin-top: 25px;
       padding: 20px;
       border-radius: 10px;
-      max-width: 600px;
+      max-width: 500px;
     }
     
     h1 {
@@ -55,8 +55,9 @@
   main {
     display: flex;
     background-color: #FFFECB;
+    font-size: 16px;
     font-family: Garamond, Georgia, serif;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     }
   
