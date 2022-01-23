@@ -131,3 +131,9 @@
   script {
       display: none;
   }
+
+  /* Typography page design */
+
+#typographyMain p {
+	text-align: center;
+}
