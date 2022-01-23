@@ -13,7 +13,9 @@
     --heading-font: Helvetica;
   }
   
-  
+  h1 h2 h3 h4 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+  }
 
   body {
     background-color: #3066BE;
@@ -76,6 +78,7 @@ nav ul{
     /*flex-direction: column;*/
     list-style-type: none;
     padding-inline-start: 0px;
+    margin: 0;
 }
 nav ul li{
     flex: 1 1 auto;
