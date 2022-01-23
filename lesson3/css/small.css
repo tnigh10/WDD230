@@ -69,9 +69,10 @@
     }
     
     nav a {
-      display: flex;
+      display: block;
       color:white;
       text-decoration: none;
+      align-items: center;
     }
   
     nav a:hover {
