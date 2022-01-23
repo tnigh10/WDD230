@@ -111,16 +111,12 @@ nav li{
       padding-top: 1em;
     }
   
-    #headingtext{
+    .headingtext{
       font-family: 'Open Sans';
     }
 
-    #fonttext{
+    .fonttext{
       font-family: 'Amiri';
-    }
-
-  ul {
-      
     }
   
   footer {
