@@ -109,11 +109,19 @@
     }
   
   main h2 {
-      
+      font-family: 'Open Sans';
       text-align: center;
       padding-top: 1em;
     }
   
+    #headingtext{
+      font-family: 'Open Sans';
+    }
+
+    #fonttext{
+      font-family: 'Amiri';
+    }
+    
   ul {
       border-top: 2px solid black;
       border-bottom: 2px solid black;
