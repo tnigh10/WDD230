@@ -150,6 +150,14 @@ nav li{
   margin-right: auto;
 }
 
+.personaImg{
+  max-width: 30%;
+}
+
+.scenarios{
+  text-align: left;
+}
+
 h1 h2 h3 h4 {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
