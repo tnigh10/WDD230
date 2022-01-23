@@ -13,6 +13,10 @@
     --heading-font: Helvetica;
   }
   
+  h1 h2 h3 h4 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+  }
+
   body {
     background-color: #3066BE;
     font-family: 'Amiri', Georgia, serif;
@@ -39,7 +43,6 @@
     
     h1 {
       display: block;
-      font-family: 'Open Sans', Helvetica, sans-serif;
       font-size: 2.25em;
       color: #E8E9ED;
       margin-block-start: 0.0em;
@@ -53,7 +56,6 @@
 
     header h2 {
       display: block;
-      font-family: 'Open Sans', Helvetica, sans-serif;
       color: white;
       margin-top: -20px;
       text-align: center;
@@ -61,7 +63,7 @@
   }
 
   .headnav{
-    max-width: 100%;
+    max-width: 80%;
     padding: 10px;
     background-color: #3066BE;
     text-align: center;
@@ -85,13 +87,13 @@ nav li{
       display: block;
       color:#efd9ce;
       text-decoration: none;
-      align-items: center;
+      /*align-items: center;*/
     }
   
     nav a:hover {
       background-color: #607196;
       color: yellow;
-        border-radius: 10px;
+      border-radius: 10px;
     }
   
   main {
