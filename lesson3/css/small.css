@@ -57,17 +57,33 @@
       color: white;
       margin-top: -20px;
       text-align: center;
+      
   }
     nav {
-      flex: 1 1 100%;
       /*text-align: center;*/
 	    padding: 15px;
 	    text-decoration: none;
 	    font-size: 1.5em;
       margin-top: 10px;
       margin-bottom: -10px;
+      max-width: 100%;
+    }
+
+    nav ul{
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      padding-inline-start: 0px;
     }
     
+    nav ul li{
+      flex: 1 1 auto;
+  }
+
+  nav {
+    display: list-item;
+  }
+
     nav a {
       display: block;
       color:white;
