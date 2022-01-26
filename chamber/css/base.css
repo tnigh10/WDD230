@@ -1,0 +1,45 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFECB;   /* Yellow */
+    --secondary-color: #3066BE; /* Blue */
+    --accent1-color: #EFD9CE;  /* rose */
+    --accent2-color: #607196;  /* gray */
+    --accent3-color: #E8E9ED; /*   light gray  */
+  
+    /* change the values below to your chosen font(s) */
+   
+}
+
+h1,h2,h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Amiri', sans-serif;
+    font-size: large;
+}
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #CAF0F8;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #EFD9CE;
+    border-radius: 10px;
+    display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding: 10px;
+}
+
+nav {
+    background-color: #607196;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    border-radius: 10px;
+}
