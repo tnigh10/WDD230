@@ -1,13 +1,23 @@
-:root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #FFFECB;   /* Yellow */
-    --secondary-color: #3066BE; /* Blue */
-    --accent1-color: #EFD9CE;  /* rose */
-    --accent2-color: #607196;  /* gray */
-    --accent3-color: #E8E9ED; /*   light gray  */
-  
-    /* change the values below to your chosen font(s) */
-   
+
+header {
+    
+    background-color: #3066BE;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+	/*flex-direction: row;*/
+	margin: 0;
+	padding: 10px;
+    align-items: center;
+    max-width: 760px;
+    justify-content: space-between;
+}
+
+.present {
+    display: grid;
+    margin-left: 2em;
+    align-items: center;
+    max-width: 150px;
 }
 
 .logo-box {
@@ -20,28 +30,6 @@
     max-width: 50%;
 }
 
-header {
-    
-    background-color: #3066BE;
-    border-radius: 10px;
-    display: inline-flex;
-	flex-direction: row;
-	
-	padding: 10px;
-    align-items: center;
-}
-
-
-.log-box img {
-    max-width: 15em%;
-  }
-
-  .social {
-    display: flex;
-    flex: 1 1 auto;
-    text-align: right;
-    float: right;
-}
 nav {
     background-color: #3066BE;
 	text-align: right;
@@ -49,21 +37,16 @@ nav {
 	flex-direction: row;
     border-radius: 10px;
 }
-nav {
-	margin: 0 auto;
-	max-width: 760px;
-	background-color: #3066BE;
-}
+
 .navigation {
 	list-style: none;
 	padding: 0;
 }
-.navigation li:first-child {
-	display: block;
-}
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	padding: 0.75rem;
@@ -99,28 +82,15 @@ h1,h2,h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p {
-	font-family: 'Amiri', sans-serif;
-    font-size: large;
-}
-
-#content {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #CAF0F8;
-    border-radius: 10px;
-}
-
 main {
     display: flex;
     flex-direction: column;
     /*grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;*/
     gap: 0em;
-    
-  }
+}
   
-  main div {
+main div {
     background-color: #E8E9ED;
     display: flex;
     flex-direction: column;
@@ -128,26 +98,7 @@ main {
     text-align:left;
     margin: 20px;
     padding-left: 2em;
-    max-width: 30em;
-  }
-
-
-
-date {
-    display: block;
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0.75rem;
-    background-color: #eee;
-    color: black;
-}
-
-#todayDate {
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    max-width: 40em;
 }
 
 footer {
@@ -155,6 +106,7 @@ footer {
     display: block;
     text-align: center;
     align-items: center;
+    max-width: 760px;
   }
 
 script {
