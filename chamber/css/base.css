@@ -111,6 +111,21 @@ p {
     border-radius: 10px;
 }
 
+date {
+    display: ;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem;
+    background-color: #eee;
+    color: black;
+}
+
+#todayDate {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 footer {
     background-color: #3066BE;
