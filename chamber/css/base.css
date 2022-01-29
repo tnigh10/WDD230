@@ -17,7 +17,7 @@
     /* margin: 0 auto; */
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 50%;
+    /*max-width: 50%;*/
 }
 
 header {
@@ -26,14 +26,17 @@ header {
     border-radius: 10px;
     display: inline-flex;
 	flex-direction: row;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;*/
 	
 	padding: 10px;
     align-items: center;
 }
 
 
-.log-box img {
-    max-width: 15em%;
+.logo-box img {
+    max-height: 50%;
   }
 
   .social {
@@ -128,7 +131,7 @@ main {
     text-align:left;
     margin: 20px;
     padding-left: 2em;
-    max-width: 30em;
+    max-width: 700px;
   }
 
 
@@ -153,8 +156,10 @@ date {
 footer {
     background-color: #3066BE;
     display: block;
+    border-radius: 10px;
     text-align: center;
     align-items: center;
+    max-width: 760px;
   }
 
 script {
