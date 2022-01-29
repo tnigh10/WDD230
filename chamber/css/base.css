@@ -112,4 +112,12 @@ p {
 }
 
 
+footer {
+    background-color: #3066BE;
+    display: block;
+    text-align: center;
+  }
 
+script {
+    display: none;
+}
