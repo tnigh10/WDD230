@@ -34,6 +34,12 @@ header {
     align-items: center;
 }
 
+.present {
+    display: grid;
+    margin-left: 2em;
+    align-items: center;
+    max-width: 150px;
+}
 
 .logo-box img {
     max-height: 50%;
