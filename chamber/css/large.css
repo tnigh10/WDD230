@@ -110,6 +110,18 @@
           
         }
         footer {
-            max-width: 900px;
+          background-color: #3066BE;
+          display: flex;
+          flex-direction: column;
+          border-radius: 10px;
+          justify-content: center;
+          align-items: center;
+          max-width: 760px;
         }
+
+        .bottom {
+          display: block;
+          text-align: center;
+      }
+
 }
