@@ -203,9 +203,10 @@ date {
 
 footer {
     background-color: #3066BE;
-    display: block;
+    display: inline-flex;
+    flex-direction: row;
     border-radius: 10px;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     max-width: 760px;
   }
