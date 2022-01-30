@@ -107,12 +107,12 @@ p {
     font-size: large;
 }
 
-#content {
+/*#content {
     max-width: 960px;
     margin: 0 auto;
     background-color: #CAF0F8;
     border-radius: 10px;
-}
+}*/
 
 main {
     display: flex;
@@ -134,7 +134,55 @@ main {
     max-width: 700px;
   }
 
+  #hero {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
 
+  #event {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #weather {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #news {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #spotlight1 {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #spotlight2 {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+  }
+
+  #spotlight3 {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+    display: none;
+  }
+
+  #join {
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+    display: none;
+  }
 
 date {
     display: block;
