@@ -3,6 +3,13 @@
     h1 {
         color: red;
     }
+    h1 {
+      font-size: 1.75em;
+      font-weight: 900;
+    }
+    h2 {
+      font-size: 1.1em;
+    }
 
     main {
         display: grid;
