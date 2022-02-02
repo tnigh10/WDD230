@@ -21,7 +21,6 @@
 }
 
 header {
-    
     background-color: #3066BE;
     border-radius: 10px;
     display: inline-flex;
@@ -29,9 +28,10 @@ header {
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2;*/
-	
-	padding: 10px;
+		padding: 10px;
     align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .present {
@@ -142,7 +142,8 @@ main {
     /*grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;*/
     gap: 0em;
-    
+    max-width: 850px;
+    margin: 0 auto;    
     
   }
   
@@ -233,6 +234,8 @@ footer {
     align-items: center;
     /*max-width: 700px;*/
     padding: 10px;
+    max-width: 850px;
+    margin: 0 auto;
   }
 
   footer img{

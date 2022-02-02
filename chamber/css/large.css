@@ -28,7 +28,7 @@
             grid-template-rows: 1fr 1fr 1fr;
             font-size: 0.8rem;
             padding: 10px;
-            max-width: 90%;
+          
           }
         
           #hero {
@@ -112,7 +112,7 @@
           footer {
             display: flex;
             flex-direction: column;
-            max-width: 100%;
+            
           }
         
         
