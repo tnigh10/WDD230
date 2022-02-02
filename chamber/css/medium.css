@@ -85,6 +85,7 @@
         text-align: center;
         grid-row: 4;
         grid-column: 1/7;
+        display: block;
       }
 
       #weather {

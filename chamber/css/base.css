@@ -25,7 +25,7 @@ header {
     background-color: #3066BE;
     border-radius: 10px;
     display: inline-flex;
-	flex-direction: row;
+	  flex-direction: row;
     /*display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2;*/
@@ -35,10 +35,11 @@ header {
 }
 
 .present {
-    display: grid;
-    margin-left: 2em;
+    display: flex;
+    /*margin-left: 2em;
     align-items: center;
-    max-width: 150px;
+    max-width: 150px;*/
+    justify-content: center;
 }
 
 .logo-box img {
@@ -104,7 +105,7 @@ nav {
 	content: "❌ ";
 }
 
-aside {
+date {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem;
@@ -142,6 +143,7 @@ main {
     grid-template-rows: 1fr 1fr 1fr;*/
     gap: 0em;
     
+    
   }
   
   main div {
@@ -152,7 +154,7 @@ main {
     text-align:left;
     margin: 20px;
     padding-left: 2em;
-    max-width: 700px;
+    
   }
 
   #hero {
@@ -229,7 +231,8 @@ footer {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
+    /*max-width: 700px;*/
+    padding: 10px;
   }
 
   footer img{
@@ -239,6 +242,7 @@ padding: 1em;
 .bottom {
     display: block;
     text-align: center;
+    padding: 20px;
 }
 
 script {
