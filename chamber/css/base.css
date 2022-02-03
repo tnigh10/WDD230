@@ -42,11 +42,13 @@ header {
 }
 
 .present {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     /*margin-left: 2em;
     align-items: center;
     max-width: 150px;*/
     justify-content: center;
+    background-color: #eee;
 }
 
 .logo-box img {
@@ -249,10 +251,19 @@ footer {
 padding: 1em;  
 }
 
+footer p {
+  margin-top: -15px;
+}
+
 .bottom {
     display: block;
     text-align: center;
     padding: 20px;
+    margin-top: -20px;
+}
+
+.bottom p {
+  font-size: .9em;
 }
 
 script {
