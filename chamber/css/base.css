@@ -42,14 +42,8 @@ header {
   position: absolute;
   margin-left: 220px;
   margin-top: 50px;
-  background-image: linear-gradient(
-    90deg,
-    #feffb9,
-    #fcff5c,
-    #fbff00,
-    #fcff5c,
-    #feffb9
-  );
+  background-color: white;
+  opacity: 0.5;
 }
 .show {
   display: grid;
