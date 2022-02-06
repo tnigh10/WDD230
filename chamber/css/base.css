@@ -39,7 +39,7 @@ header {
 }
 
 #banner {
-  position: relative;
+  position: absolute;
   background-image: linear-gradient(
     90deg,
     #feffb9,
