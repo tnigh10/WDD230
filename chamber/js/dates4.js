@@ -7,11 +7,12 @@ datefield.innerHTML = `<strong>${fulldate}</strong>`;
 
 /*banner JS */
 const day = current.getDay();
-const banner = document.querySelector('#banner')
+/*const banner = document.querySelector("banner")*/
+const banner = document.getElementById("banner")
 console.log(day)
 if (day == 1 || day == 2) {
-  banner.classList.add('show')
+  banner.classList.add("show")
 }
 else {
-  banner.classList.add('hide')
+  banner.classList.add("hide")
 }

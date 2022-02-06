@@ -44,9 +44,10 @@ header {
   margin-top: 50px;
   background-color: white;
   opacity: 0.5;
+  
 }
 .show {
-  display: grid;
+  display: block;
   grid-column: 1/5;
 }
 .hide {

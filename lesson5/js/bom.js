@@ -1,4 +1,4 @@
-const box = document.querySelector('#favchap');
+const box = document.querySelector('chapter');
 const btn = document.querySelector('button');
 const list = document.querySelector('ul');
 
