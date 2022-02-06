@@ -40,6 +40,8 @@ header {
 
 #banner {
   position: absolute;
+  margin-left: 220px;
+  margin-top: 50px;
   background-image: linear-gradient(
     90deg,
     #feffb9,
