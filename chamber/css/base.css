@@ -169,11 +169,11 @@ main {
     gap: 0em;
     max-width: 850px;
     margin: 0 auto;    
-    
+    background-color: #E8E9ED;
   }
   
   main div {
-    background-color: #E8E9ED;
+    /*background-color: #E8E9ED;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,12 +187,14 @@ main {
     border-style: solid;
     margin: 5px;
     text-align: center;
+    background-color: #EFD9CE;
   }
 
   #event {
     border-style: solid;
     margin: 5px;
     text-align: center;
+    background-color: #EFD9CE;
   }
 
   #weather {
@@ -205,6 +207,7 @@ main {
     border-style: solid;
     margin: 5px;
     text-align: center;
+    background-color: #EFD9CE;
   }
 
   #spotlight1 {
@@ -217,6 +220,7 @@ main {
     border-style: solid;
     margin: 5px;
     text-align: center;
+    background-color: #EFD9CE;
   }
 
   #spotlight3 {
@@ -224,6 +228,7 @@ main {
     margin: 5px;
     text-align: center;
     display: none;
+    background-color: #EFD9CE;
   }
 
   #join {
@@ -231,6 +236,7 @@ main {
     margin: 5px;
     text-align: center;
     display: none;
+    background-color: #EFD9CE;
   }
 
 date {
