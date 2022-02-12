@@ -6,13 +6,26 @@ const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 datefield.innerHTML = `<strong>${fulldate}</strong>`;
 
 /*banner JS */
-const day = current.getDay();
-/*const banner = document.querySelector("banner")*/
+/*const day = now.getDay();
+const banner = document.querySelector("banner")
 const banner = document.getElementById("banner")
 console.log(day)
-if (day == 1 || day == 2) {
-  banner.classList.add("show")
+if (day == 4 || day == 3) {
+  banner = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
 }
 else {
-  banner.classList.add("hide")
+  banner = ""
 }
+document.querySelector('#banner').textContent = banner;*/
+
+/*/*banner*/
+const today = new Date();
+let dayOfWeek;
+dayOfWeek = today.getDay();
+let banner;
+if (dayOfWeek == 1 || dayOfWeek == 2) {
+    banner = ' Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+} else {
+    banner = '';
+}
+document.querySelector('#banner').textContent = banner;

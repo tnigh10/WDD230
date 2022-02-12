@@ -22,10 +22,11 @@
 
       #hero {
         border-style: solid;
-        margin: 5px;
+        margin: 10px;
         text-align: center;
         grid-row: 1;
         grid-column: 1/7;
+        
       }
 
       #news {
