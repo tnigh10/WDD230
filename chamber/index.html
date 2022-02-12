@@ -18,6 +18,7 @@
     <script defer src="js/dates4.js"></script>
     <script defer src="js/fdates.js"></script>
     <script defer src="js/menu.js"></script>
+    <script defer src="js/windchill.js"></script>
 </head>
 
 
@@ -71,8 +72,8 @@
         <p>Hero with site name and call to action</p>
         <picture class="hero">
             
-                <source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="images/heromed.jpeg">
-                <source media="(min-width: 60em)" srcset="images/herolarge.jpeg">
+                <source media="(min-width: 37.6em) and (max-width: 57.9em)" srcset="images/heromed.jpeg">
+                <source media="(min-width: 58em)" srcset="images/herolarge.jpeg">
                 <img id="hero1" src="images/herosmall.jpeg" alt="Week 6 Hero Image" />
                 
             </picture>
@@ -81,7 +82,10 @@
         <p>Event</p>
     </div>
     <div id="weather">
-        <p>Weather</p>
+        <h3>Weather</h3>
+        <p>Currently: <span id="t">-5</span>&#176;F</p>
+        <p>Wind Speed: <span id="s">15</span>mph</p>
+        <p>WindChill: <span id="w"></span></p>
     </div>
     <div id="news">
         <p>News Release</p>

@@ -204,6 +204,10 @@ main {
     align-items: center;
   }
 
+  .hero {
+    
+  }
+
   #hero1 {
     max-width: 90%;
   }
@@ -219,6 +223,7 @@ main {
     border-style: solid;
     margin: 5px;
     text-align: center;
+    background-color: #EFD9CE;
   }
 
   #news {
