@@ -88,17 +88,17 @@
             grid-row: 1/4;
             grid-column: 7/9;
             display: block;   /* grid*/
-            flex-direction: column;
-            list-style-type: none;
+            /*flex-direction: column;*/
+            /*list-style-type: none;*/
           }
         
           #spotlight1 {
             border-style: solid;
+            display: block;
             margin: 5px;
             text-align: center;
-            list-style-type: none;
             grid-row: 1;
-            grid-column: 6/8;
+            /*grid-column: 7/9;*/
           }
         
           #spotlight2 {
@@ -107,7 +107,7 @@
             text-align: center;
             list-style-type: none;
             grid-row: 2/3;
-            grid-column: 6/8;
+            grid-column: 7/9;
           }
         
           #spotlight3 {
@@ -116,7 +116,7 @@
             margin: 5px;
             text-align: center;
             grid-row: 3;
-            grid-column: 6/8;
+            grid-column: 7/9;
           }
         
           footer {
