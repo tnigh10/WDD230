@@ -92,10 +92,11 @@ header {
 	  border: 1px solid #bbb;
 	  padding: 0.75rem;
     text-align: center;
+    font-size: small;
 }
 
 .logo-box img {
-    max-width: 125px;
+    max-width: 100px;
   }
 
   .social {
