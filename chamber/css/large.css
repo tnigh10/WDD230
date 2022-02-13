@@ -4,12 +4,19 @@
         color: yellow;
     }
     
+    .logo-box img {
+      max-width: auto
+    }
+
     .present {
       grid-row: 2;
       grid-column: 2/5;
       align-content: stretch;
-      
   }
+
+  .present p {
+    font-size: larger;
+}
 
     nav ul li a {
         padding: 0.5rem 1rem;
