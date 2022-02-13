@@ -42,7 +42,7 @@ header {
     background-color: #3066BE;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr 1fr;
 	  padding: 10px;
     align-items: center;
     max-width: 850px;
