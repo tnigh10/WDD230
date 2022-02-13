@@ -200,9 +200,19 @@ main {
     margin: 5px;
     text-align: center;
     background-color: #EFD9CE;
-    
     align-items: center;
+    position: relative;
   }
+
+  #herojoin{
+    font-weight: 600;
+    background-color: #3066BE;
+    color: #f8ffdd;
+    padding: 10px 30px 10px 30px;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
 
   .hero {
     
@@ -264,7 +274,19 @@ main {
     display: none;
     background-color: #EFD9CE;
     padding: 1em;
+    position: relative;
   }
+
+  #joinus{
+    font-weight: 600;
+    background-color: #3066BE;
+    color: #f8ffdd;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 10px 20px 10px 20px;
+
+    position: absolute;
+}
 
   .spotpic{
     display: block;
