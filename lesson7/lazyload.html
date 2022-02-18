@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazyload images</title>
+    <meta name="description" content="Lazyloader assignment"> 
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Open+Sans&display=swap" rel="style">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/scripts3.js" defer></script>
+
+</head>
+
+<body>
+    
+    <h1>Lazy Image Loader</h1>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        data-src="https://images.unsplash.com/photo-1611735341450-74d61e660ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FyZGVuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        width="300"
+        height="400"
+        alt="watering can"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        width="300"
+        height="400"
+        data-src="https://images.unsplash.com/photo-1597868165956-03a6827955b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="planting"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        data-src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="tomatoes"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        data-src="https://images.unsplash.com/photo-1621272156568-7306716648df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="garden"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        data-src="https://images.unsplash.com/photo-1523301551780-cd17359a95d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="tools"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+    <picture>
+      <img
+        src="images/placeholder.webp"
+        data-src="https://images.unsplash.com/photo-1627989147125-a004d05946d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="harvest"
+        loading="lazy"
+        width="300"
+        height="400"
+      />
+    </picture>
+
+</body>
+
+</html>
