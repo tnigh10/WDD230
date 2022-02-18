@@ -1,7 +1,4 @@
-/* [data-src] {
-  min-width: 50px;
-  min-height: 50px;
-} */
+
 
 body {
     display: flex;
@@ -13,9 +10,6 @@ body {
     filter: blur(0.2em);
   }
 
-  /*data-src {
-    filter: blur(0.2em);
-  }*/
   
   img {
     filter: blur(0em);
