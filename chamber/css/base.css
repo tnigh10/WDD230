@@ -318,7 +318,14 @@ date {
 .discover {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
 }
 
 .gallery img[data-src] {
@@ -329,6 +336,7 @@ date {
 .gallery img {
   filter: blur(0em);
   transition: filter 0.5s;
+  max-width: auto;
 }
 
 
