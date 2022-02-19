@@ -315,6 +315,23 @@ date {
     margin-bottom: 20px;
 }
 
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery img[data-src] {
+  filter: blur(0.2em);
+}
+
+
+.gallery img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+
 footer {
     background-color: #3066BE;
     display: flex;

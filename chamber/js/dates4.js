@@ -29,3 +29,6 @@ if (dayOfWeek == 1 || dayOfWeek == 2) {
     banner = '';
 }
 document.querySelector('#banner').textContent = banner;
+
+
+
