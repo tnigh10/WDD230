@@ -35,8 +35,8 @@ var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
 
 // determine how many days ago you last visited.
 if ( Difference_In_Days !== 0) {
-    
-    todayDisplay.textContent = Difference_In_Days;
+    document.write(Difference_In_Days);
+    //todayDisplay.textContent = Difference_In_Days;
   } else {
     todayDisplay.textContent = `You were here earlier today!`;
   }
