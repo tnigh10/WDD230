@@ -112,6 +112,11 @@
         grid-column: 5/7;
       }
 
+      .galleryphoto:hover{
+        border-style: double;
+        }
+
+        
       
 
 }
