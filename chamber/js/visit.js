@@ -1,5 +1,6 @@
 // initialize visit elements
 const visitsDisplay = document.querySelector(".visits");
+const todayDisplay = document.querySelector(".today");
 
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-stored"));
@@ -21,12 +22,13 @@ localStorage.setItem("visits-stored", numVisits);
 
 
 // Initialize day counter
-todayDisplay.textContent = Date();
+//todayDisplay.textContent = Date();
 //const todayDisplay = document.querySelector(".today");
 
 // get the stored value in localStorage
-var numDays = String(window.localStorage.getItem("date-stored"));
+var numDays = Number(window.localStorage.getItem("date-stored"));
 
+todayDisplay.textContent = numDays;
 // To calculate the time difference of two dates
 var Difference_In_Time = todayDisplay.getTime() - numDays.getTime();
   
@@ -36,13 +38,13 @@ var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
 // determine how many days ago you last visited.
 if ( Difference_In_Days !== 0) {
     document.write(Difference_In_Days);
-    //todayDisplay.textContent = Difference_In_Days;
+    todayDisplay.textContent = Difference_In_Days;
   } else {
     todayDisplay.textContent = `You were here earlier today!`;
   }
 
   // Set new date for numDays
-  numDays = Date();
+  numDays = Date.toString();
 
   // store the new date of last visit value
 localStorage.setItem("date-stored", numDays);
