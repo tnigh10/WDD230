@@ -47,6 +47,11 @@ tr:nth-child(odd) {
 
 .black-friday {font-style: italic;}
 
+tbody td:hover {
+    background-color: #EFD9CE;
+    transition: 0.3s;
+}
+
 .table-footer {
     font-size: small;
 }
