@@ -377,3 +377,109 @@ footer p {
 script {
     display: none;
 }
+
+.join {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.join h2 {
+  text-align: center;
+  padding: 2rem;
+  color: black;
+  background-color: #bbb;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.description {
+  display: none;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #011640;
+  border-radius: 10px;
+  padding: .5rem 2.5%;
+  max-width: 25rem;
+  padding-inline-end: 2rem;
+}
+
+form legend {
+  color: white;
+  margin: 0 1rem;
+  padding: .5rem;
+  background-color: #011640;
+  border-radius: 10px;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  color: #355B8C;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+  display:block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form textarea {
+  width: 88%;
+  background-color: rgba(0,0,0,0.1);
+  padding: .2rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #BF6F7E;
+  color: black;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 95%;
+  max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+  background-color: #BF6F7E97;
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border: #F26F63 solid 2px;
+}
+
+#memlev{
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem 1rem;
+  font-family: "Barlow Condensed", Helvetica, sans-serif;
+  border: 1px solid #1a4173;
+  border-radius: 10px;
+  padding: 0.5rem 2rem 2%;
+  margin-bottom: 3rem;
+}

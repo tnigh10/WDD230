@@ -119,4 +119,24 @@
         
       
 
+
+
+  .description {
+  display: grid;
+  }
+
+  .join {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2.5rem;
+  }
+
+  #memlev{
+  grid-column: 1 / 2;
+  }
+
+  #busform{
+  grid-column: 2 / 3;
+  }
+
 }
