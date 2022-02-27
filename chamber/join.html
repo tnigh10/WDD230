@@ -71,31 +71,31 @@
     <h1>Join the Lake Elmo Chamber of Commerce</h2>
     <div id="memlev">
         <h2 id="membership">Membership Levels</h2>
-        <h3 class="levels">Non-Profit Membership</h3>
+        <h3 class="levels"><strong>Non-Profit Membership</strong></h3>
         <h4>Price:<strong> Free!</strong></h4>
-            <p class="levpara">The Non-Profit Membership provides businesses the same benefits as the Gold Membership for the Chamber of Commerce, with that additional benefit that the Non-Profit Membership is free!</p>
+            <p class="levpara">Have your business listed in the Lake Elmo Chamber online directory. </p>
         <h3 class="levels">Bronze Membership</h3>
-        <h4>Price: <strong>$125 per year</strong></h4>
-            <p class="levpara">The Bronze Membership gets businesses a 10% discount on use of the Chamber of Commerce Gathering Room for any functions they would like to hold, as well as one spotlight on the Chamber of Commerce website per year, chosen at our discretion.</p>
+        <h4>Price: <strong>$1000 per year</strong></h4>
+            <p class="levpara">Businesses get a 10% discount on use of the Chamber of Commerce Gathering Room for any functions they would like to hold, as well as one spotlight on the Chamber of Commerce website per year.</p>
         <h3 class="levels">Silver Membership</h3>
-        <h4>Price: <strong>$250 per year</strong></h4>
-            <p class="levpara">The Silver Membership provides a 15% discount on use of the Chamber of Commerce Gathering Room for functions, and one spotlight on the Chamber of Commerce website per year, with your choice of what month your business is featured!</p>
+        <h4>Price: <strong>$2500 per year</strong></h4>
+            <p class="levpara">Businesses get a 15% discount on use of the Chamber of Commerce Gathering Room for functions, and two spotlights on the Chamber of Commerce website per year, with your choice of what month your business is featured!</p>
         <h3 class="levels">Gold Membership</h3>
-        <h4>Price: <strong>$450 per year</strong></h4>
-            <p class="levpara">Businesses selecting the Gold Membership with the Chamber of Commerce get use of the Gathering Room at a %25 discount and three spotlights, with the member's choice of what months the spotlight is featured!</p>
+        <h4>Price: <strong>$6000 per year</strong></h4>
+            <p class="levpara">Businesses selecting the Gold Membership with the Chamber of Commerce will be included in our executive level discussions, get use of the Gathering Room at a %25 discount and three spotlights, with the member's choice of what months the spotlight is featured!</p>
     </div>
 
         <form method="get" action="thankyou.html">
-            <fieldset>
+            <fieldset id="busform">
                 <legend>Primary Contact</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Phone*<input type="tel" name="phone" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Member Info</legend>
-                <label class="top">Business Position<input type="text" name="bus-position" pattern="[A-Za-z\s-]{7,}" title="Business Position"></label>
+            
+            
+                
+                <label class="top">Business Position<input type="text" name="bus-position" pattern="[A-Za-z -]+{7,}" title="Business Position"></label>
                 <label class="top">Business Name<input type="text" name="bus-name" title="Business Name" required></label>
                 <label class="top">Business Description <br><textarea rows="3" name="bus-description"></textarea></label>
 

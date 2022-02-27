@@ -379,8 +379,8 @@ script {
 }
 
 .join {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: auto;
  
 }
 
@@ -390,7 +390,7 @@ script {
   color: black;
   background-color: #bbb;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .description {
@@ -429,7 +429,7 @@ form label.top, form div {
 }
 
 form label.top input, form label.top select {
-  -webkit-appearance: none;
+  /*-webkit-appearance: none;*/
   display: block;
   font-size: 1rem;
   border: solid 1px #999;
@@ -445,6 +445,7 @@ form label.sbs {
   display:block;
   padding: .75rem 0;
   color: #555;
+  margin-left: 2rem;
 }
 
 form textarea {
@@ -474,10 +475,9 @@ form label.top input:required {
 }
 
 #memlev{
-  display: flex;
-  flex-direction: column;
+  
+  text-align: center;
   margin: 2.5rem 1rem;
-  font-family: "Barlow Condensed", Helvetica, sans-serif;
   border: 1px solid #1a4173;
   border-radius: 10px;
   padding: 0.5rem 2rem 2%;
