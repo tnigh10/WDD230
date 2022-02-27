@@ -483,3 +483,18 @@ form label.top input:required {
   padding: 0.5rem 2rem 2%;
   margin-bottom: 3rem;
 }
+
+.thankyou {
+  display: flex;
+  flex-direction: column;
+}
+
+.thankyou h2 {
+  text-align: center;
+  font-size: x-large;
+  }
+
+.thankyou p {
+  max-width: 500px;
+  margin: auto;
+}
