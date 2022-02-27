@@ -489,6 +489,11 @@ form label.top input:required {
   flex-direction: column;
 }
 
+.thankyou img {
+  display: block;
+  margin: auto;
+}
+
 .thankyou h2 {
   text-align: center;
   font-size: x-large;
