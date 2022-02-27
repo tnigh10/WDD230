@@ -492,6 +492,7 @@ form label.top input:required {
 .thankyou img {
   display: block;
   margin: auto;
+  padding: 20px;
 }
 
 .thankyou h2 {
