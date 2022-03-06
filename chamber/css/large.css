@@ -152,6 +152,8 @@
           margin: 0 auto;
         }
 
-        
+        .card-view {
+          grid-template-columns: repeat(3, 1fr);
+      }
 
 }

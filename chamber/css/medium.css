@@ -152,6 +152,13 @@
   }
 
 }
+.directory {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.directory h2 {
+  display: block;
+}
 
 .cards {
   text-align: center;
@@ -160,4 +167,3 @@
   grid-gap: 5px;
   text-align: center;
   margin: 0 auto;
-}

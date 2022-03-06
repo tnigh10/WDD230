@@ -1,6 +1,6 @@
 
-// const requestURL = 'https://tnigh10.github.io/wdd230/chamber/data/data.json';
-const requestURL = 'data/data.json';
+const requestURL = 'https://tnigh10.github.io/wdd230/chamber/data/data.json';
+// const requestURL = 'data/data.json';
 const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-btn");
 const cardButton = document.querySelector("#card-btn");
