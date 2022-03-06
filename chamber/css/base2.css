@@ -1,116 +1,51 @@
 
-header {
-    
-    background-color: #3066BE;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-	/*flex-direction: row;*/
-	margin: 0;
-	padding: 10px;
-    align-items: center;
-    max-width: 760px;
-    justify-content: space-between;
-}
+/* Directory */
 
-.present {
-    display: grid;
-    margin-left: 2em;
-    align-items: center;
-    max-width: 150px;
-}
-
-.logo-box {
-    background-color: #3066BE;
-    display: inline-block;
-    /* margin-left: 400px; */
-    /* margin: 0 auto; */
-    padding-left: 1em;
-    padding-right: 1em;
-    max-width: 50%;
-}
-
-nav {
-    background-color: #3066BE;
-	text-align: right;
-	display: flex;
-	flex-direction: row;
-    border-radius: 10px;
-}
-
-.navigation {
-	list-style: none;
-	padding: 0;
-}
-
-.navigation li {
-	display: none;
-}
-
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: black;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.navigation a.ham::before {
-	content: "🍔 ";
-}
-
-.navigation a:hover {
-	color: yellow;
-	background-color: black;
-}
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-	display: block;
-}
-
-.responsive a.ham::before {
-	content: "❌ ";
-}
-
-h1,h2,h3 {
-	font-family: 'Open Sans', sans-serif;
-}
-
-main {
+.directory {
     display: flex;
-    flex-direction: column;
-    /*grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;*/
-    gap: 0em;
-}
-  
-main div {
-    background-color: #E8E9ED;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align:left;
-    margin: 20px;
-    padding-left: 2em;
-    max-width: 700px;
-    
-}
-
-footer {
-    background-color: #3066BE;
-    display: block;
-    border-radius: 10px;
+    grid-template-columns: 1fr;
     text-align: center;
-    align-items: center;
-    max-width: 760px;
   }
-
-script {
-    display: none;
-}
+  
+  .directory h2 {
+    
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .list-view img, .card-view>section h2 {display: none;}
+  
+  .card-view img{
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .list-view>section h2 {display: block;}
+  
+  .list-view section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .card-view {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .card-view section {
+    padding: .5em;
+    margin: .5em;
+  }
+  
+  .list-view-btn button {
+    padding:.2rem;
+    background-color: white;
+    border: 3px #3066BE solid;
+    border-radius: 5px;
+    margin: .3em;
+  }
+  
+  .list-view section:nth-child(2n) {
+    background-color: #BF6F7E;
+  }
