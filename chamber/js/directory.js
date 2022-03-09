@@ -11,8 +11,9 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
+        console.table(jsonObject); //temporary checking
+
         const businesses = jsonObject['businesses'];
-        // console.table(jsonObject);
         businesses.forEach(displayBusinesses);
     });
 
