@@ -10,8 +10,8 @@ fetch(requestURL)
   //uses json() method
   console.table(jsonObject); // temporary checking for valid response and data parsing
   const business = jsonObject["business"];
-  business.forEach(displayBusiness);
-});
+  business.forEeach(displayBusiness);
+    });
 
 function displayBusiness(business) {
 // Create elements to add to the document
