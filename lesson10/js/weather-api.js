@@ -9,8 +9,9 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
-    document.querySelector("#current-temp").textContent = jsObject.main.temp;
-    document.querySelector("#current-wind").textContent = jsObject.wind.speed;
+    document.querySelector("#current-temp").textContent = jsObject.main.temp.toFixed(0);
+    document.querySelector("#current-wind").textContent = jsObject.wind.speed.toFixed(1);
+    document.querySelector("#feels-like").textContent = jsObject.main.feels_like.toFixed(0);
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     document.querySelector("#icon-src").textContent = iconsrc;
