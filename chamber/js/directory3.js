@@ -10,7 +10,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
       
-    const directories = jsonObject["directory"];
+    const directories = jsonObject["business"];
     directories.forEach(displayDirectories);
   });
 
