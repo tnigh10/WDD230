@@ -18,7 +18,9 @@
     <script defer src="js/dates4.js"></script>
     <script defer src="js/fdates.js"></script>
     <script defer src="js/menu.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <!--<script defer src="js/windchill.js"></script>-->
+    <script defer src="js/weatherapi.js"></script>
+
 </head>
 
 
@@ -87,11 +89,17 @@
     </div>
     <div id="weather">
         <h3>Weather</h3>
-        <picture>
+
+        <figure>
+            <img src="" alt="" id="weathericon" />
+            <figcaption></figcaption>
+          </figure>
+
+        <!--<picture>
             <img class="spotpic" id="sun" src="images/sunshine.webp" alt="sunshine" />
-        </picture>
-        <p>Currently: <span id="t">-5</span>&#176;F</p>
-        <p>Wind Speed: <span id="s">15</span>mph</p>
+        </picture>-->
+        <p>Currently: <span id="current-temp"></span>&#176;F</p>
+        <p>Wind Speed: <span id="current-wind"></span>mph</p>
         <p>WindChill: <span id="w"></span></p>
     </div>
     <div id="news">
@@ -156,6 +164,7 @@
 
         <p id="copyr"></p>
         <p id="lastmod">Last Modified</p>
+        <p>weather data provided by OpenWeatherMap</p>
     </div>
 
 </footer>

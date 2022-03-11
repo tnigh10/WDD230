@@ -1,8 +1,7 @@
 
 
-
 const apiURL = 
-"https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial";
+"https://api.openweathermap.org/data/2.5/weather?id=5033762&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -11,7 +10,7 @@ fetch(apiURL)
 
     document.querySelector("#current-temp").textContent = jsObject.main.temp.toFixed(0);
     document.querySelector("#current-wind").textContent = jsObject.wind.speed.toFixed(1);
-    document.querySelector("#feels-like").textContent = jsObject.main.feels_like.toFixed(0);
+    //document.querySelector("#feels-like").textContent = jsObject.main.feels_like.toFixed(0);
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     //document.querySelector("#icon-src").textContent = iconsrc;
