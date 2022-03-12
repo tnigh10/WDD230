@@ -240,6 +240,14 @@ main {
     background-color: #EFD9CE;
   }
 
+  figcaption {
+    font-size: 32px;
+  }
+
+  img#weathericon {
+    width: 100px;
+  }
+
   #news {
     border-style: solid;
     margin: 5px;
