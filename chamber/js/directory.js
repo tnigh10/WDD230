@@ -22,7 +22,7 @@ function displayBusinesses(business) {
 
   //img
   let image = document.createElement('img');
-  image.src = businesses.imgfile;
+  image.src = business.imgfile;
   image.setAttribute('alt', business.name);
   card.appendChild(image);
 
