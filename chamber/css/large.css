@@ -156,4 +156,11 @@
           grid-template-columns: repeat(3, 1fr);
       }
 
+      .information {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 2rem;
+      }
+      
 }
+

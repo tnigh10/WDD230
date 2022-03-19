@@ -1,5 +1,5 @@
 
-const requestURL = 'https://tnigh10.github.io/wdd230/chamber/data/data3.json';
+const requestURL = 'https://tnigh10.github.io/wdd230/chamber/data/data.json';
 // const requestURL = 'data/data.json';
 const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-btn");
@@ -13,8 +13,8 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); //temporary checking
 
-        const businesses = jsonObject['businesses'];
-        businesses.forEach(displayBusinesses);
+        const business = jsonObject['business'];
+        business.forEach(displayBusinesses);
     });
 
 function displayBusinesses(business) {
@@ -22,7 +22,7 @@ function displayBusinesses(business) {
 
   //img
   let image = document.createElement('img');
-  image.src = business.imgfile;
+  image.src = business.imagefile;
   image.setAttribute('alt', business.name);
   card.appendChild(image);
 

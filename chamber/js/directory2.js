@@ -1,4 +1,4 @@
-const requestURL = "https://tnigh10.github.io/wdd230/chamber/data/data3.json";
+const requestURL = "https://tnigh10.github.io/wdd230/chamber/data/data.json";
 
 
 
@@ -9,8 +9,8 @@ fetch(requestURL)
 .then(function (jsonObject) {
   //uses json() method
   console.table(jsonObject); // temporary checking for valid response and data parsing
-  const business = jsonObject["businesses"];
-  business.forEeach(displayBusiness);
+  const business = jsonObject["business"];
+  business.forEach(displayBusiness);
     });
 
 function displayBusiness(business) {

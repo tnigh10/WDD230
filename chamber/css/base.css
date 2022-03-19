@@ -132,7 +132,7 @@ nav {
 	padding: 0.5rem;
 	text-align: left;
 	text-decoration: none;
-	color: black;
+	color: whitesmoke;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -603,3 +603,21 @@ form label.top input:required {
 /*.list-view section:nth-child(2n) {
   background-color: #BF6F7E;
 }*/
+
+.contact {
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 20px;
+  
+}
+
+.contact h2 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.contact img {
+  width: 100px;
+  margin-left: 10px;
+}

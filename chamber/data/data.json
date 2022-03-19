@@ -7,8 +7,9 @@
         "state": "MN",
         "zip": "55042",
         "phone": "888-666-5555",
-        "website": "pgcupcakes.com",
-        "imagefile": "https://img.icons8.com/dusk/64/000000/cupcake.png"
+        "website": "mycupcakes.com",
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/cupcake.webp",
+        "level": "silver"
       },
       {
         "name": "Fury Motors",
@@ -18,7 +19,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "furymotors.com",
-        "imagefile": "https://cdn-icons.flaticon.com/png/512/3091/premium/3091388.png?token=exp=1646426922~hmac=bc3d3bd5defa5eed0fd491b38b57c70e"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/car.webp",
+        "level": "np"
       },
       {
         "name": "Jade Salon",
@@ -28,7 +30,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "salonjade.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/1057/1057317.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/haircut.webp",
+        "level": "np"
       },
       {
         "name": "Cravings Resturant",
@@ -38,7 +41,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "eatcravings.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/857/857718.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/plate1.webp",
+        "level": "np"
       },
       {
         "name": "Safe At Home Insurance",
@@ -48,7 +52,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "safeathome.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/609/609803.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/house.webp",
+        "level": "np"
       },
       {
         "name": "Speedy Cleaners",
@@ -58,7 +63,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "wemeanclean.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/995/995016.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/clean.webp",
+        "level": "np"
       },
       {
         "name": "Wui Nails",
@@ -68,7 +74,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "wuinails.com",
-        "imagefile": "https://cdn-icons.flaticon.com/png/512/1658/premium/1658273.png?token=exp=1646426774~hmac=e8ab45495ae9be78333c0d4a0331d938"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/nail-salon-icon-24.webp",
+        "level": "np"
       },
       {
         "name": "Eric's Bicycle",
@@ -78,7 +85,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "ericsbikes.com",
-        "imagefile": "https://cdn-icons.flaticon.com/png/512/4112/premium/4112915.png?token=exp=1646426830~hmac=3298b22c7b66d07509e930cde8ccc10d"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/bike-icon-png-11.webp",
+        "level": "np"
       },
       {
         "name": "Stillwater Ford Auto",
@@ -88,7 +96,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "buycars4fun.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/3774/3774278.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/car.webp",
+        "level": "np"
       },
       {
         "name": "The Sweete Shoppe",
@@ -98,7 +107,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "sweets.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/527/527755.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/pie.webp",
+        "level": "np"
       },
       {
         "name": "Fab Graphic Design",
@@ -108,7 +118,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "fgdesign.com",
-        "imagefile": "https://cdn-icons-png.flaticon.com/512/2779/2779775.png"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/penpencil.webp",
+        "level": "np"
       },
       {
         "name": "Website 4 You",
@@ -118,7 +129,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "web4u.com",
-        "imagefile": "https://cdn-icons.flaticon.com/png/512/1927/premium/1927768.png?token=exp=1646427117~hmac=c22ad9a98345b548b6157dba60b68d57"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/binoculars.webp",
+        "level": "np"
       }
     ]
   }
