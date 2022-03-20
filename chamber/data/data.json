@@ -97,7 +97,7 @@
         "phone": "888-666-5555",
         "website": "buycars4fun.com",
         "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/car.webp",
-        "level": "np"
+        "level": "gold"
       },
       {
         "name": "The Sweete Shoppe",
@@ -107,8 +107,8 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "sweets.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/pie.webp",
-        "level": "np"
+        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/pie.png",
+        "level": "silver"
       },
       {
         "name": "Fab Graphic Design",
