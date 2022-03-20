@@ -26,7 +26,7 @@ p.innerHTML = `${business.address}<br/>
   ${business.website}`;
 
 // Build the image attributes
-logo.setAttribute("src", business.imageurl);
+logo.setAttribute("src", business.imagefile);
 logo.setAttribute("alt", `logo of ${business.name}}`);
 logo.setAttribute("loading", "lazy");
 logo.setAttribute("class", "company-logo");

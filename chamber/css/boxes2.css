@@ -1,0 +1,66 @@
+
+
+/**********************
+    Directory Page
+**********************/
+
+.directory {
+    text-align: center;
+    border: 4px #BF6F7E dotted;
+}
+
+.list-view img, .card-view>section h3 {display: none;}
+
+.card-view img{
+    display: block;
+    width: 70%;
+    margin: .5rem auto;
+    min-height: 200px;
+}
+
+.list-view>section h3 {display: block;}
+
+.list-view section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: .5em;
+}
+
+.list-view section p, .card-view section p {
+    font-weight: 500;
+}
+
+/*.card-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}*/
+
+.card-view {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-view section {
+    padding: .5em;
+    margin: .5em;
+    display: grid;
+}
+
+.card-view section p {
+    align-self: end;
+}
+
+.list-view-btn {
+    padding: .5em;
+}
+
+.list-view-btn button {
+    padding:.2rem;
+    background-color: white;
+    border: 3px #BF6F7E solid;
+    border-radius: 5px;
+    margin: .3em;
+}
+
+.list-view section:nth-child(2n) {
+    background-color:#BF6F7E40;
+}

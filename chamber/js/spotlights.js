@@ -48,7 +48,7 @@ function displaySpotlight1(spotlight) {
   pphone.innerHTML = `${spotlight.phone}`;
   psite.innerHTML = `${spotlight.website}`;
 
-  spotlightimg.setAttribute("src", spotlight.imageurl);
+  spotlightimg.setAttribute("src", spotlight.imagefile);
   spotlightimg.setAttribute("alt", `logo of ${spotlight.name}}`);
   spotlightimg.setAttribute("loading", "lazy");
   spotlightimg.setAttribute("class", "spotlightlogo");

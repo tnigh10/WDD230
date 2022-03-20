@@ -8,7 +8,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "mycupcakes.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/cupcake.webp",
+        "imagefile": "images/cupcake.webp",
         "level": "silver"
       },
       {
@@ -41,7 +41,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "eatcravings.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/plate1.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/plate1.webp",
         "level": "np"
       },
       {
@@ -52,7 +52,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "safeathome.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/house.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/house.webp",
         "level": "np"
       },
       {
@@ -63,7 +63,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "wemeanclean.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/clean.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/clean.webp",
         "level": "np"
       },
       {
@@ -74,7 +74,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "wuinails.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/nail-salon-icon-24.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/nail-salon-icon-24.webp",
         "level": "np"
       },
       {
@@ -85,7 +85,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "ericsbikes.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/bike-icon-png-11.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/bike-icon-png-11.webp",
         "level": "np"
       },
       {
@@ -96,7 +96,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "buycars4fun.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/car.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/car.webp",
         "level": "gold"
       },
       {
@@ -107,7 +107,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "sweets.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/pie.png",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/pie.png",
         "level": "silver"
       },
       {
@@ -118,7 +118,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "fgdesign.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/penpencil.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/penpencil.webp",
         "level": "np"
       },
       {
@@ -129,7 +129,7 @@
         "zip": "55042",
         "phone": "888-666-5555",
         "website": "web4u.com",
-        "imagefile": "https://tnigh10/github.io/wdd230/chamber/images/binoculars.webp",
+        "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/binoculars.webp",
         "level": "np"
       }
     ]
