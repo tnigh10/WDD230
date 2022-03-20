@@ -270,6 +270,7 @@ main {
     margin: 5px;
     display: grid;
     overflow: hidden;
+    background-color: #EFD9CE;
   }
   
   #spotlight1 img,
@@ -411,7 +412,7 @@ footer {
     padding: 5px;
     max-width: 950px;
     margin: 0 auto;
-    color: #E8E9ED;
+    color: white;
   }
 
   footer img{
