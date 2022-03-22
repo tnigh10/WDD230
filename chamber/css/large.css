@@ -164,7 +164,7 @@
     .cards img {
       margin: .75em;
       max-width: 250px;
-      box-shadow: 4px 4px 4px 4px dark whitesmoke, 0 2px 2px 0 rgba(240, 243, 41, 0.836);
+      box-shadow: 4px 4px 4px 4px rgb(56, 52, 52), 0 2px 2px 0 rgba(240, 243, 41, 0.836);
   }
 
         .card-view {
