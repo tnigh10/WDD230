@@ -1,8 +1,6 @@
 @media only screen and (min-width: 37.5em) {
 
-    h1 {
-        color: red;
-    }
+    
     .chambername h2 {
       color: whitesmoke;
     }
@@ -92,17 +90,7 @@
       }
     
 
-      /*.spotlights {
-        border-style: solid;
-        margin: 5px;
-        grid-row: 3;
-        grid-column: 1/7;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-      }
-
+      
       #spotlight1 {
         display: inline-flex;
         border-style: solid;
@@ -163,11 +151,7 @@
         border-style: double;
         }
 
-        
-      
-
-
-
+    
   .description {
   display: grid;
   }
@@ -194,33 +178,30 @@
   }
 
   #busform{
-  /*grid-column: 2;*/
+  
     
   }
 
 }
 .directory {
-display: grid;
-grid-template-columns: 1fr 1fr;
+
 }
 .directory h2 {
   display: block;
 }
 
-.cards {
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5px;
-  text-align: center;
-  margin: 0 auto;
+.list-view section {
+  grid-template-columns: repeat(4, 1fr);
 }
+
+.card-view {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
 
   .contact {
     display: block;
-    /*grid-template-columns: 1fr 1fr;
-    grid-template-rows: .7fr 1.3fr;*/
-    
     
   }
 
@@ -229,19 +210,12 @@ grid-template-columns: 1fr 1fr;
     text-align: center;
   }
 
-  main div {
-    /*flex-direction: row;*/
-    
-  }
+  
   .contact div {
     display: grid;
 
   }
-  .contact img {
-    /*justify-content: center;*/
-    
-    
-  }
+  
 
   .information {
     grid-column: 2/3;

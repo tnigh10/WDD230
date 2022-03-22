@@ -1,8 +1,6 @@
 @media only screen and (min-width: 62.5em) {
 
-    h1 {
-        color: yellow;
-    }
+    
     
     .logo-box img {
       max-width: 100%
@@ -101,7 +99,9 @@
           }
         
           .spotlight #spotlight1:nth-child(1){
-            display: block;
+            grid-row: 1;
+            grid-column: 7/9;
+
           }
         
           .spotlight #spotlight1:nth-child(2){
@@ -132,41 +132,7 @@
             margin: 0;
           }
          
-          /*.spotlights {
-            border-style: solid;
-            grid-row: 1/4;
-            grid-column: 7/9;
-            display: flex;    grid
-            flex-direction: column;
-            list-style-type: none;
-          }
-        
-          #spotlight1 {
-            border-style: solid;
-            display: block;
-            margin: 5px;
-            text-align: center;
-            grid-row: 1;
-            grid-column: 7/9;
-          }
-        
-          #spotlight2 {
-            border-style: solid;
-            margin: 5px;
-            text-align: center;
-            list-style-type: none;
-            grid-row: 2/3;
-            grid-column: 7/9;
-          }
-        
-          #spotlight3 {
-            display: block;
-            border-style: solid;
-            margin: 5px;
-            text-align: center;
-            grid-row: 3;
-            grid-column: 7/9;
-          }*/
+          
 
           .gallery imghover {
             box-shadow: 0 0 20px #333;
@@ -185,26 +151,15 @@
         }
         
         
-        /*.cards {
-          text-align: center;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: 5px;
-          text-align: center;
-          margin: 0 auto;
-        }*/
+        
 
-        .cards {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-          grid-gap: 10px;
-          margin: 2em;
-      }
+       
 
-      section {
+      .directory div section {
         text-align: center;
         background-color: rgb(88, 117, 243);
         border: 1px solid black;
+        
     }
     .cards img {
       margin: .75em;
@@ -214,6 +169,8 @@
 
         .card-view {
           grid-template-columns: repeat(3, 1fr);
+          
+          
       }
 
       .information {

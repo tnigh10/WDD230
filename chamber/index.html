@@ -20,6 +20,7 @@
     <script defer src="js/menu.js"></script>
     <!--<script defer src="js/windchill.js"></script>-->
     <script defer src="js/weatherapi.js"></script>
+    <script defer src="js/spotlights.js"></script>
 
 </head>
 
@@ -72,6 +73,9 @@
 
     <div id="hero">
         <!--<p>Hero with site name and call to action</p>-->
+        <p><strong>Welcome</strong> to Lake Elmo.</p>
+        <p> A wonderful semi-rural community of 6500 located just outside the beltway of the Twin Cities.
+        Take a tour and get to know us and then consider joining our chamber of commerce.</p>
         <picture class="hero">
                 <source media="(min-width: 37.6em) and (max-width: 62.9em)" srcset="images/lifejacketloan.jpeg">
                 <source media="(min-width: 63em)" srcset="images/champions.webp">
@@ -101,6 +105,13 @@
         <p>Currently: <span id="current-temp"></span>&#176;F</p>
         <p>Wind Speed: <span id="current-wind"></span>mph</p>
         <p>WindChill: <span id="w"></span></p>
+
+        <p>
+            Weather powered by
+            <a href="https://openweathermap.org/" target="_blank"
+              >OpenWeatherMap</a
+            >
+          </p>
     </div>
     <div id="news">
         <h3><strong>Winter Carnival</strong></h3>
@@ -114,63 +125,16 @@
         <p>Get your tickets to the Winter Carnival.</p>
     </div>
 
-    <!--<div class="spotlights">-->
-        
-           <!-- <div id="spotlight1">
-                <h3>Ice Maze</h3>
-                <picture>
-                    <img class="spotpic" id="ice" src="images/icemaze.webp" alt="ice ice maze" /> 
-                </picture>
-                <p> Come have some fun at the ice maze. Great fun for the whole family. Open til 9:00pm daily.</p>
-
-            </div>
-            <div id="spotlight2">
-                <h3>Lake Elmo Park Reserve</h3>
-                <picture>
-                    <img class="spotpic" id="fish" src="images/icefish.webp" alt="ice fishing" />
-                </picture>
-                <p> Ice fishing galore on Lake Elmo. Come out and make some friends and have fun fishing.</p>
-            </div>
-            <div id="spotlight3">
-                <h3>Lake Elmo Inn</h3>
-                <picture>
-                    <img class="spotpic" id="eat" src="images/lakeelmoinn.webp" alt="Lake Elmo Inn" />
-                </picture>
-                <p> One the Twin Cities finest restaurants. Don't forget to try our Sunday Brunch.</p>
-            </div> -->
+    
+            
 
             <div class="spotlight">
 
-                <div id="spotlight1">
-                    <h1>Stillwater Ford</h1>
-                    <img src="https://tnigh10.github.io/wdd230/chamber/images/car.webp" alt="car" loading="lazy" class="spotlightlogo">
-                    <spotlight-contact>
-                        <p>651-666-5555</p>
-                        <p>buycars4fun.com</p>
-                    </spotlight-contact>
-                    </div>
-
-                    <div id="spotlight1">
-                        <h1>The Sweete Shoppe</h1>
-                        <img src="https://tnigh10.github.io/wdd230/chamber/images/pie.webp" alt="car" loading="lazy" class="spotlightlogo">
-                        <spotlight-contact>
-                            <p>651-555-6666</p>
-                            <p>sweets.com</p>
-                        </spotlight-contact>
-                        </div>
-
-                        <div id="spotlight1">
-                            <h1>Cupcake Factory</h1>
-                            <img src="https://tnigh10.github.io/wdd230/chamber/images/cupcake.webp" alt="car" loading="lazy" class="spotlightlogo">
-                            <spotlight-contact>
-                                <p>651-708-1212</p>
-                                <p>mycupcakes.com</p>
-                            </spotlight-contact>
-                            </div>
+                
         
             </div>
         
-    <!--</div>-->
+    
 
     <div id="join">
         <h3>Join Us!</h3>
@@ -195,12 +159,7 @@
 
         <p id="copyr"></p>
         <p id="lastmod">Last Modified</p>
-        <p>
-            Weather powered by
-            <a href="https://openweathermap.org/" target="_blank"
-              >OpenWeatherMap</a
-            >
-          </p>
+        
     </div>
 
 </footer>

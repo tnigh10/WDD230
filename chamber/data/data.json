@@ -75,7 +75,7 @@
         "phone": "888-666-5555",
         "website": "wuinails.com",
         "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/nail-salon-icon-24.webp",
-        "level": "np"
+        "level": "gold"
       },
       {
         "name": "Eric's Bicycle",
@@ -97,7 +97,7 @@
         "phone": "888-666-5555",
         "website": "buycars4fun.com",
         "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/car.webp",
-        "level": "gold"
+        "level": "silver"
       },
       {
         "name": "The Sweete Shoppe",
@@ -130,7 +130,7 @@
         "phone": "888-666-5555",
         "website": "web4u.com",
         "imagefile": "https://tnigh10.github.io/wdd230/chamber/images/binoculars.webp",
-        "level": "np"
+        "level": "gold"
       }
     ]
   }
