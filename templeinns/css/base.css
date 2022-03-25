@@ -1,0 +1,19 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFECB;   /* Yellow */
+    --secondary-color: #3066BE; /* Blue */
+    --accent1-color: #EFD9CE;  /* rose */
+    --accent2-color: #607196;  /* gray */
+    --accent3-color: #E8E9ED; /*   light gray  */
+  
+    /* change the values below to your chosen font(s) */
+    font-family: 'Amiri', serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+h1,h2,h3 {
+	font-family: 'Great Vibes', cursive;
+}
+
