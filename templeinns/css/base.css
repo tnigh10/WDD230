@@ -1,10 +1,10 @@
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #FFFECB;   /* Yellow */
+    --primary-color: #FFFFFB;   /* Baby Powder White */
     --secondary-color: #3066BE; /* Blue */
-    --accent1-color: #EFD9CE;  /* rose */
-    --accent2-color: #607196;  /* gray */
-    --accent3-color: #E8E9ED; /*   light gray  */
+    --accent1-color: #7F675B;  /* Brown */
+    --accent2-color: #B388EB;  /* Lavender */
+    --accent3-color: #D1D3DB; /*   light gray  */
   
     /* change the values below to your chosen font(s) */
     font-family: 'Amiri', serif;
@@ -13,7 +13,109 @@
    
 }
 
+header {
+    border-bottom: 1px solid #3066BE;
+    padding-bottom: 10px;
+}
+
 h1,h2,h3 {
 	font-family: 'Great Vibes', cursive;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+/*nav ul{
+    list-style-type: none;
+}*/
+
+nav {
+    background-color: #FFFFFB;
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+    border-radius: 10px;
+    justify-content: center;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: #FFFFFB;
+    
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.5rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	/*content: "🍔 ";*/
+    content: "Menu";
+}
+
+.navigation a:hover {
+	color: yellow;
+	background-color: #3066BE;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+
+
+body {
+    max-width: 1400px;
+    background-color: #FFFFFB;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+footer{
+    font-family: "Amiri", serif;
+    font-weight: 500;
+    background-color: #FFFFFB;
+    color: black;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+#footaddress{
+    /*border-bottom: 1px solid rgba(255,255,255,0.5);*/
+    border-bottom: 1px solid #3066BE;
+    padding-bottom: 20px;
+}

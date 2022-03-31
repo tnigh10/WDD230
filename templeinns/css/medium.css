@@ -1,0 +1,40 @@
+@media only screen and (min-width: 37.5em) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 1rem;
+    }
+    
+        .navigation {
+            display: flex;
+        }
+        .navigation li {
+            display: block; /* change state in small view */
+            flex: 1 1 auto;
+        }
+        .navigation a {
+            text-align: center;
+        }
+        .navigation li:first-child {
+            display: none;
+        }
+
+
+    .logo-img{
+        width: 75%;
+    }
+
+}
