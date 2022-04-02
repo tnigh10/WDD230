@@ -101,6 +101,87 @@ body {
 
 
 
+
+
+
+
+/*  Services page */
+.box{
+    background-color: #E8E9ED;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    max-width: 28em;
+    
+    align-items: center;
+    font-family: "Amiri", sans-serif, Helvetica;
+}
+
+.box h3{
+    background-color: #607196;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.box h4 {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box p a{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.box img {
+    padding: 10px;
+    max-width: 26em;
+}
+
+.mobileimg{
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+}
+  
+  .discussion {
+      margin: 0px;
+      padding: 10px;
+      text-align: left;
+
+  }
+
+
+
+/* Thank You page */
+.thankyou {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thankyou img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .thankyou h2 {
+    text-align: center;
+    font-size: x-large;
+    }
+  
+  .thankyou p {
+    max-width: 500px;
+    margin: auto;
+  }
+
+
 footer{
     font-family: "Amiri", serif;
     font-weight: 500;
