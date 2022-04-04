@@ -141,7 +141,10 @@ body {
 
 .box img {
     padding: 10px;
-    max-width: 24em;
+    border-radius: 4%;
+    width: 80%;
+    margin: 0 auto;
+    /*max-width: 24em;*/
 }
 
 .lists {
