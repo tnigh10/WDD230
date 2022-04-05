@@ -68,25 +68,106 @@
 
 
 <main>
+    <section class="reserve" >
 
-    <figure>
-        <img src="images/rexburg_idaho_temple.jpg" alt="Laie Hawaii" width="300">
-    </figure>
+        <div class="reserveform" >
 
-    <figure>
-        <img src="images/stockholm_sweden_lds_temple.jpg" alt="St. Paul MN temple" width="300">
-    </figure>
+            <form method="get" action="booked.html">
+                <fieldset>
+                  <legend>Check Availability</legend>
+                  <label class="top">
+                    Temple Location
+                    <select name="temple">
+                      <option value="">Please Select</option>
+                      <option value="laie">Laie, HI</option>
+                      <option value="st._paul">S. Paul, MN</option>
+                      <option value="nauvoo">Nauvoo. IL</option>
+                      <option value="kansascity">Kansas City, MO</option>
+                    </select>
+                  </label>
+                  <label class="top">
+                    Check in <input type="date" name="checkin" required />
+                  </label>
+                  <label class="top">
+                    Check out <input type="date" name="checkout" required />
+                  </label>
+        
+                  <label class="top">
+                    Adults
+                    <select name="adults">
+                      <option value="one">1</option>
+                      <option value="two">2</option>
+                      <option value="three">3</option>
+                      <option value="four">4</option>
+                      <option value="five">5+</option>
+                    </select>
+                  </label>
+                  <label class="top">
+                    Children
+                    <select name="children">
+                      <option value="">0</option>
+                      <option value="onecount">1</option>
+                      <option value="twocount">2</option>
+                      <option value="threecount">3+</option>
+                    </select>
+                  </label>
+                </fieldset>
+                <fieldset>
+                  <legend>Accomodations</legend>
+                  <label class="room">
+                    <input type="radio" name="room" value="queen" /> 2 Queen Beds
+                  </label>
+                  <label class="room">
+                    <input type="radio" name="room" value="king" /> 1 King Bed
+                  </label>
+                  <label class="room">
+                    <input type="radio" name="room" value="suite1" /> 1 Room Suite
+                  </label>
+                  <label class="room">
+                    <input type="radio" name="room" value="suite2" /> 2 Room Suite
+                  </label>
+                </fieldset>
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <label class="contactbooking">
+                    First Name* <input type="text" name="fname" required />
+                  </label>
+                  <label class="contactbooking">
+                    Last Name* <input type="text" name="lname" required />
+                  </label>
+                  <label class="contactbooking">
+                    Email* <input type="email" name="email" required />
+                  </label>
+                  <label class="contactbooking">
+                    Phone* <input type="tel" name="phone" required />
+                  </label>
+                </fieldset>
+                <input type="submit" value="Book My Room" class="bookBtn" />
+              </form>
 
-    <figure>
-        <img src="images/oakland_california_temple_exterior.jpg" alt="Nauvoo IL temple" width="300">
-    </figure>
+            
+        </div>
 
-    <figure>
-        <img src="images/washington_dc_mormon_temple.jpg" alt="Kansas City MO temple" width="300">
-    </figure>
+        <!--<figure>
+            <img src="images/rexburg_idaho_temple.jpg" alt="Laie Hawaii" width="300">
+        </figure>
+
+        <figure>
+            <img src="images/stockholm_sweden_lds_temple.jpg" alt="St. Paul MN temple" width="300">
+        </figure>
+
+        <figure>
+            <img src="images/oakland_california_temple_exterior.jpg" alt="Nauvoo IL temple" width="300">
+        </figure>
+
+        <figure>
+            <img src="images/washington_dc_mormon_temple.jpg" alt="Kansas City MO temple" width="300">
+        </figure>-->
 
 
 
+
+    </section>
 
 </main>
 

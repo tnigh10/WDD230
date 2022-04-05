@@ -105,6 +105,18 @@ body {
 
 
 
+
+/*  Reservations Page  */
+#reserve {
+    background-image: url("../images/sgnite1.jpeg");
+    background-color: #ccc;
+    background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover; 
+    width:100%;
+}
+
+
 /*  Services page */
 .box{
     background-color: #E8E9ED;

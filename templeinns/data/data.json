@@ -1,0 +1,565 @@
+{
+    "temples": [
+      {
+        "name": "Laie Hawaii Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "St. Paul Minnesota Temple",
+        "address": "2150 Hadley Ave N",
+        "city": "Oakdale",
+        "state": "MN",
+        "zip": "55128",
+        "country": "USA",
+        "phone": "1-651-748-5910",
+        "website": "https://www.churchofjesuschrist.org/temples/details/st.-paul-minnesota-temple?lang=eng",
+        "imageurl": "images/st_paul_temple_lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "No Distribution center nearby",
+        "announced": "29 July 1998",
+        "groundbreaking": "26 September 1998",
+        "dedicated": "9 January 2000",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Monday, 1 August 2022 - Monday, 12 September 2022"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Wednesday, 23 November 2022 (Limited Operations)"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Saturday, 24 December 2022"}
+            {"date" "Saturday, 31 December 2022 (Limited Operations)"}
+        ]
+      },
+      {
+        "name": "Nauvoo Illinois Temple",
+        "address": "50 N Wells St",
+        "city": "Nauvoo",
+        "state": "IL",
+        "zip": "62354",
+        "country": "USA",
+        "phone": "1-217-453-6252",
+        "website": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
+        "imageurl": "images/nauvoo_temple_lds.jpg",
+        "clothing": "Clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "No Distribution center nearby",
+        "announced": "4 April 1999",
+        "groundbreaking": "24 October 1999",
+        "dedicated": "27 June 2002",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Monday, 28 March 2022 - Monday, 23 May 2022"}
+            {"date" "Monday, 26 September 2022 - Monday, 24 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Saturday, 24 December 2022"}
+            {"date" "Saturday, 31 December 2022"}
+        ]
+      },
+      {
+        "name": "Kansas City Missouri Temple",
+        "address": "7001 Searcy Creek Pkwy",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64119",
+        "country": "USA",
+        "phone": "1-816-413-1430",
+        "website": "https://www.churchofjesuschrist.org/temples/details/kansas-city-missouri-temple?lang=eng",
+        "imageurl": "images/kansas_city_temple_lds.jpg",
+        "clothing": "Clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "No distribution center nearby",
+        "announced": "4 October 2008",
+        "groundbreaking": "8 May 2010",
+        "dedicated": "6 May 2012",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory, Live Sealing",
+        "phase": "TEMPLE IS RETURNING TO NORMAL OPERATIONS",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Monday, 18 April 2022 - Monday, 25 April 2022"}
+            {"date" "Tuesday, 21 June 2022 (Limited Operations)"}
+            {"date" "Monday, 19 September 2022 - Monday, 19 December 2022"}
+            {"date" "Saturday, 24 December 2022"}
+        ]
+      },
+      {
+        "name": "Chicago Illinois Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Cardston Alberta Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Hong Kong China Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Kyiv Ukraine Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Las Vegas Nevada Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Los Angeles California Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Oakland California Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Provo City Center Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Provo Utah Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Salt Lake Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "St. George Utah Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Tokyo Japan Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Stockholm Sweden Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Rexburg Idaho Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Star Valley Wyoming Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      },
+      {
+        "name": "Washington D.C. Temple",
+        "address": "55-600 Naniloa Loop",
+        "city": "Laie",
+        "state": "HI",
+        "zip": "96762",
+        "country": "USA",
+        "phone": "1-808-293-2427",
+        "website": "https://www.churchofjesuschrist.org/temples/details/laie=hawaii-temple?lang=eng",
+        "imageurl": "images/laie-hawaii-temple-lds.jpg",
+        "clothing": "No clothing rental available",
+        "cafeteria": "No cafeteria available",
+        "patronhousing": "No patron housing available",
+        "distribution": "Distribution center nearby",
+        "announced": "3 October 1915",
+        "groundbreaking": "8 February 1916",
+        "dedicated": "27 November 1919",
+        "ordinances": "Proxy Baptism, Proxy Sealing, Proxy Endowment, Proxy Initiatory",
+        "phase": "PHASE 3: ALL LIVING ORDINANCES AND LIMITED PROXY ORDINANCES",
+        "schedule": "All ordinances are available by appointment only",
+        "closures": [
+            {"date" "Friday, 30 September 2022 (Limited Operations)"}
+            {"date" "Saturday, 1 October 2022"}
+            {"date" "Thursday, 24 November 2022"}
+            {"date" "Friday, 23 December 2022 (Limited Operations)"}
+            {"date" "Saturday, 24 December 2022 - Monday, 26 December 2022"}
+        ]
+      }
+    ]
+}
+      
