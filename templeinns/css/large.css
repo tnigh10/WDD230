@@ -21,6 +21,30 @@
 
 
 
+
+/*  Home Page  */
+#welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*flex-flow: row;*/
+    margin-top: 5em;
+  }
+  #welcomeText {
+      grid-column: 1;
+      float: left;
+  }
+  #mainImgDiv {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+
+
+/*  Temples Page  */
+
+
+
+
     /* Services page */
     .services {
         display: grid;

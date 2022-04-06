@@ -104,18 +104,158 @@ body {
 
 
 
+/*  Home Page  */
+#welcome {
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Welcome description text and image */
+#welcome > div:nth-child(1) {
+  padding: 0 1em;
+}
+#mainImgDiv {
+  max-width: 50%;
+  margin: 0 auto;
+}
+#mainImgDiv img{
+  align-content: center;
+}
+
+
+
+/*  Temples Page  */
+
+
+
+
+/*  Contacts Page  */
+.contact {
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 300px;
+}
+
+.contact div {
+  padding: 30px;
+}
+
+
 
 
 /*  Reservations Page  */
-#reserve {
-    background-image: url("../images/sgnite1.jpeg");
-    background-color: #ccc;
-    background-position:center;
-	background-repeat:no-repeat;
-    background-size:cover; 
-    width:100%;
+.reserve {
+    margin: 0 auto;
+	  width:100%;
+    max-width: fit-content;
+    
 }
 
+.pics {
+  display: none;
+}
+
+form {
+  margin: .5rem;
+  min-width: 350px;
+  /*background-color: #D1D3DB;*/
+
+}
+
+form fieldset {
+  margin: 1rem;
+  border: 2px solid #3066BE;
+  border-radius: 10px;
+  padding: .5rem 2.5%;
+  padding-inline-end: 2rem;
+}
+
+form legend {
+  color: white;
+  margin: 0 1rem;
+  padding: .5rem;
+  background-color: #63c2f1;
+  border-radius: 10px;
+  text-align: left;
+}
+
+form label.top, form div {
+  display: block;
+  text-align: left;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  /*-webkit-appearance: none;*/
+  display: block;
+  font-size: 1rem;
+  border: solid 1px green;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #FFFFFB;
+}
+
+form label.sbs {
+  display:block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form textarea {
+  width: 88%;
+  background-color: rgba(0,0,0,0.1);
+  padding: .2rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #B388EB;
+  color: black;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: .5em auto;
+  width: 100%;
+}
+
+form input.submitBtn:hover {
+  background: #7F675B;
+  /*background: linear-gradient(145deg, rgba(217,164,4,1) 24%, rgba(217,41,41,1) 49%, rgba(89,2,2,1) 78%);*/
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+form label.top input:required {
+  border: rgb(242, 125, 125) solid 3px;
+}
+form label.top select:required {
+  border: rgb(242, 125, 125) solid 3px;
+}
+
+
+.level {
+  font-weight: bold;
+}
+
+/*.reserveform {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    max-width: 400px;
+}
+
+.bookme {
+  margin: 1em;
+  justify-content: center;
+  align-content: center;
+}*/
 
 /*  Services page */
 .box{

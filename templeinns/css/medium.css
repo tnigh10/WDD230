@@ -38,6 +38,66 @@
     }
 
 
+
+
+/*  Home Page  */
+
+#welcome {
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 3em 1em 0 1em;
+  }
+
+
+
+
+    /*  Temples Page  */
+
+
+
+
+/*  Contacts Page  */
+.callus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin: 0 auto;
+	width:100%;
+    justify-items: center;
+    max-width: fit-content;
+}
+.pics {
+    display: block;
+    margin-top: 15px;
+    grid-column: 1;
+    padding: 30px;
+}
+
+.contact {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 300px;
+    padding: 30px;
+  }
+
+
+/*  Reservations Page  */
+.reserve {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+	width:100%;
+    max-width: fit-content;
+}
+
+.pics {
+    display: block;
+    margin-top: 15px;
+    grid-column: 1;
+}
+
+
 /* Thank You */
 .arigato {
     display: grid;
