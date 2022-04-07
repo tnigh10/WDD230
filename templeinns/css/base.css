@@ -97,6 +97,7 @@ body {
     background-color: #FFFFFB;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
 }
 
 
@@ -107,7 +108,7 @@ body {
 /*  Home Page  */
 #welcome {
   flex-flow: column;
-  justify-content: center;
+  /*justify-content: center;*/
   width: 100%;
 }
 
@@ -117,10 +118,123 @@ body {
 }
 #mainImgDiv {
   max-width: 50%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin-left: 20px;
+  padding: 20px;
+  justify-content: center;
 }
 #mainImgDiv img{
   align-content: center;
+  
+}
+
+
+#templespot {
+  display: grid;
+  grid-column: auto;
+}
+
+.spotlight {
+  background-color: #3066BE;
+  color: #d9d9d9;
+  padding: .5em;
+  margin: .5em 10% .5em auto;
+  max-width: 600px;
+  
+}
+
+.spotlight h3 {
+  text-align: left;
+  padding-left: 1em;
+  color: #FFFFFB;
+}
+
+.spotlight img {
+  width: 90%;
+  max-width: 400px;
+}
+
+.spotlight h4 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  align-self: end;
+  font-size: larger;
+  color: #FFFFFB;
+}
+
+.spotlight a {
+  color: #f1f147;
+}
+
+
+.weather {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.weather h3 {
+  color: #D92929;
+  grid-column: 1/4;
+}
+
+.current-weather {
+  /*justify-self: center;*/
+  /*grid-column: 1/4;*/
+  /*display: grid;*/
+  /*grid-template-columns: 1fr 1fr;*/
+  align-items: center;
+  padding: 1em;
+  column-gap: 1em;
+  border: #3066BE solid 1px;
+  box-shadow: 2px 2px 2px #3066BE;
+  background-color: #D1D3DB;
+  max-width: 350px;
+}
+
+.temp-and-humid {
+  justify-self:left;
+  padding: 1em;
+}
+
+
+.temp-and-humid p {font-size: small;}
+
+.now {
+  font-size: 1.5em;
+}
+
+.icon-and-desc {
+  justify-self:right;
+  font-size: smaller;
+}
+
+.current-weather h4 {
+  grid-column: 1/2;
+  font-size: 3.5em;
+  color: #3066BE;
+  margin: 0;
+}
+
+.lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.three-day {
+  grid-row: 3/4;
+  background-color: #D1D3DB;
+  padding: .5em;
+  box-shadow: 2px 2px 2px #3066BE;
+  border: 1px solid #3066BE;
+}
+
+#alert-message {
+  display: none;
+  background-color: #D92929;
+  color: white;
+  padding: 1em;
 }
 
 

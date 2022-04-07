@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <script defer src="js/menu.js"></script>
     <script defer src="js/fdates.js"></script>
-    <script defer src="js/weatherapi.js"></script>
-    <script defer src="js/spotlights.js"></script>
+    <script defer src="js/weather2.js"></script>
+    <script defer src="js/tspotlight.js"></script>
 
 </head>
 
@@ -41,10 +41,7 @@
 
     <div class="social">
         <nav>
-           <!--<a href="http://facebook.com" target="_blank"><img class="facebook" src="images/facebook.png"
-                    alt="facebook" width="50"></a>
-            <a href="http://twitter.com" target="_blank"><img class="twitter" src="images/twitter-blue.svg"
-                    alt="youtube" width="50"></a>-->
+           
             <ul class="navigation">
                 <li><a class="ham" <!--href="#"--></a></a></a></li>
                 <!--<li><a href="index.html">Home</a></li>-->
@@ -96,6 +93,56 @@
 
     </div>
 
+    <section id="templespot">
+
+        <div class="spotlight">
+            <h3>Temple Spotlight</h3>
+        </div>
+    </section>
+
+    
+
+    <div class="weather">
+        <p> </p>
+        <div class="current-weather">
+            <p class="now"> WEATHER * FORECAST <br>
+                Bethesda, MD</p>
+            <div class="temp-and-humid">
+                <img src="#" alt="" id="weathericon">
+                <p><span id="desc"></span></p>
+                <h4><span id="current-temp"></span>&#176;</h4>
+                <p>Humidity: <span id="humid"></span>%</p>
+                <p><span class="day"></span></p>
+
+            </div>
+            <div class="icon-and-desc">
+                <img src="#" alt="" id="weathericon">
+                <p><span id="desc"></span></p>
+
+            </div>
+
+        </div>
+        <div class="lower">
+        <div class="three-day">
+            <img src="#" alt="">
+            <p><span id="desc"></span></p>
+            <h4><span class="current-temp"></span> &#176;F</h4>
+            <p><span class="day"></span></p>
+        </div>
+        <div class="three-day">
+            <img src="#" alt="">
+            <p><span id="desc"></span></p>
+            <h4><span class="current-temp"></span> &#176;F</h4>
+            <p><span class="day"></span></p>
+        </div>
+        <div class="three-day">
+            <img src="#" alt="">
+            <p><span id="desc"></span></p>
+            <h4><span class="current-temp"></span> &#176;F</h4>
+            <p><span class="day"></span></p>
+        </div>
+        </div>
+    
 
 
 
@@ -107,8 +154,7 @@
 <footer>
     <div id="footaddress">
     <div class="logo-img">
-        <!--<source media="(min-width: 37.6em) and (max-width: 59.9em)" srcset="./images/lds-icon-sm.jpg" width="150" height="150">
-        <source media="(min-width: 60em)" srcset="./images/lds-icon-16.jpg" width="250" height="250">-->
+        
         <img src="images/lds-icon-sm.jpg" alt="Temple Inn sm logo" width="150" height="150"></div>
     
     <div class="address">

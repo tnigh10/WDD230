@@ -2,9 +2,11 @@
 
 
 
-const apiURL = 
+//const apiURL = 
 //"https://api.openweathermap.org/data/2.5/weather?id=5861897&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial";
-"https://api.openweathermap.org/data/2.5/onecall?lat=44.98022&lon=-92.96530&exclude=hourly&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial";
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.98318&lon=-77.09761&exclude=hourly&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial'
+
+//"https://api.openweathermap.org/data/2.5/onecall?lat=44.98022&lon=-92.96530&exclude=hourly&appid=6372b6b36f7750dfbbd98d6862f27c37&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -12,6 +14,11 @@ fetch(apiURL)
     console.log(jsObject);
 
     document.querySelector("#current-temp").textContent = jsObject.daily[0].temp.day.toFixed(0);
+    document.querySelector("#current-temp1").textContent = jsObject.daily[1].temp.day.toFixed(0);
+    document.querySelector("#current-temp2").textContent = jsObject.daily[2].temp.day.toFixed(0);
+    document.querySelector("#current-temp3").textContent = jsObject.daily[3].temp.day.toFixed(0);
+
+
     document.querySelector("#current-wind").textContent = jsObject.current.wind_speed.toFixed(1);
     document.querySelector("#feels-like").textContent = jsObject.current.feels_like.toFixed(0);
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;

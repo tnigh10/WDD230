@@ -49,6 +49,34 @@
     margin: 3em 1em 0 1em;
   }
 
+  #templespot {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .spotlight {
+      grid-row: 1/3;
+  }
+
+
+  .weather {
+    display: grid;
+    
+    grid-column: 2;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .current-weather {
+    margin-top: -150px;
+    padding: 1em;
+    margin: 0 auto;
+  }
+
 
 
 
