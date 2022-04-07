@@ -15,7 +15,9 @@
         justify-content: space-between;
     }
   
-
+    .present {
+        grid-column: 2/3;
+    }
 
 
 

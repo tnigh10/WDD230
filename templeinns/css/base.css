@@ -100,6 +100,15 @@ body {
     margin: 0 auto;
 }
 
+.present p {
+  background-color: #FFFFFB;
+  margin: 0.5rem;
+  /*border: 1px solid #bbb;*/
+  padding: 0.75rem;
+  text-align: center;
+  font-size: small;
+  color: #3066BE;
+}
 
 
 

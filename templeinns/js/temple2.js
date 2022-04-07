@@ -33,7 +33,8 @@ function displayTemple(temple) {
   let pphase = document.createElement("p");
   let pschedule = document.createElement("p");
   let pclosures = document.createElement("p");
-  // text content and inner html
+  
+  // inner html items
   templeName.innerHTML = `${temple.name}`;
   pphone.innerHTML = `Phone: ${temple.phone}`;
   psite.innerHTML = `${temple.name} Website`;
@@ -41,28 +42,24 @@ function displayTemple(temple) {
   pservices.innerHTML = `Services:<br/>${temple.clothing}<br/>${temple.cafeteria}<br/>${temple.patronhousing}<br/>${temple.distribution}`;
   pannounced.innerHTML = `Announced: ${temple.announced}`;
   pgroundb.innerHTML = `Groundbreaking: ${temple.groundbreaking}`;
+  prdedicated.innerHTML = `Dedicated: ${temple.dedicated}`;
   pordinances.innerHTML = `Ordinances:<br/>${temple.ordinances}`;
   pschedule.innerHTML = `${temple.schedule}`;
   pclosures.innerHTML = `Closures:<br/>${temple.closures}`;
-  // img stuff
+  
+  // make sure the img stuff works
   templeimg.setAttribute("src", temple.imageurl);
   templeimg.setAttribute("alt", `logo of ${temple.name}}`);
   templeimg.setAttribute("loading", "lazy");
   templeimg.setAttribute("class", "templeimg");
 
-  /*let image = document.createElement('img');
-  image.src = temple.imageurl;
-  image.setAttribute('alt', temple.name);
-  image.setAttribute("loading", "lazy")
-  card.appendChild(image);*/
-
-
-  // append all the children
+  // start to append all the children
   card.appendChild(templeName);
   card.appendChild(templeimg);
   card.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
+  
   // asite.appendChild(psite);
   card.appendChild(divordinances);
   divordinances.appendChild(pphase);
@@ -76,6 +73,34 @@ function displayTemple(temple) {
   divhistory.appendChild(pannounced);
   divhistory.appendChild(pgroundb);
   divhistory.appendChild(prdedicated);
+
+  //button like
+  let likebtn = document.createElement('button');
+  const likeImg = document.createElement('img');
+  likeImg.setAttribute('alt', 'like button image');
+
+  likebtn.appendChild(likeImg);
+  if(localStorage.getItem(temple.name) == "true") {
+    likeImg.src = "images/redheart.webp";
+    }
+    else {
+        likeImg.src = "images/blkheart.webp";
+    }
+
+  likebtn.setAttribute('id', 'like');
+  likebtn.setAttribute('value', "like-btn");
+  likebtn.addEventListener("click", () => {
+        if(localStorage.getItem(temple.name) == "true") {
+          localStorage.setItem(temple.name, "false");
+          likeImg.src = "images/blkheart.webp";
+      }
+      else {
+          localStorage.setItem(temple.name, "true");
+          likeImg.src = "images/redheart.webp";
+      }
+  });
+  card.append(likebtn);
+
 
   document.querySelector("div.cards").appendChild(card);
 }
