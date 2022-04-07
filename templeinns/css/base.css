@@ -241,6 +241,91 @@ body {
 
 /*  Temples Page  */
 
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+  border: 5px solid white;
+  background-color: #D1D3DB;
+}
+
+.cards img {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cards h2 {
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.card {
+  border: 2px #2f3e46 solid;
+  border-collapse: collapse;
+  background-color: #D1D3DB;
+  padding: 10px;
+  box-shadow: 0 0 30px #3066BE;
+}
+
+
+
+/*.cards {
+  max-width: 425px;
+  margin: .25em auto;
+}
+
+.cards > section {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  background-color:#d9d9d9;
+  margin: 1.5em auto;
+  display: grid;
+  padding: .5em;
+  border: solid 1px #bf705e;
+}
+
+.cards > section:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
+
+.cards section img {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-self: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.cards section #like {
+  width: 3em;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.cards section h2 {
+  grid-row: 1
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.cards section p, .cards section button, .cards section a, .cards .morediv{
+  grid-column: 1/3;
+  justify-self: center;
+}
+
+#morebtn {
+  color: #590202;
+  margin: .3em;
+}
+*/
+.website-link {color: #590202;}
+
+.website-link:hover {border-bottom: solid 1px #bf705e;}
+
+
+
+
+
+
 
 
 

@@ -42,7 +42,10 @@
 
 /*  Temples Page  */
 
-
+.cards h2 {
+    font-size: 2.0em;
+    
+  }
 
 
     /* Services page */
